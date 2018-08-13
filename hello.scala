@@ -1,1 +1,1 @@
-println("Hello, world, from a script!1")
+println("Hello, " + args(0) +"!")
