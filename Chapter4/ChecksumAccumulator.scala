@@ -1,4 +1,3 @@
-// ChecksumAccumulator.scala
 import scala.collection.mutable
 
 object ChecksumAccumulator {
