@@ -8,7 +8,7 @@ object ChecksumAccumulator {
     if (cache.contains(s))
       cache(s)
     else {
-      val acc = new ChecksumAccumulator
+      val acc = new ChecksumAccu mulator
       for (c <- s)
         acc.add(c.toByte)
       val cs = acc.checksum()
