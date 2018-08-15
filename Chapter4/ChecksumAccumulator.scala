@@ -1,7 +1,7 @@
+// ChecksumAccumulator.scala
 import scala.collection.mutable
 
-
-class ChecksumAccumulator {
+object ChecksumAccumulator {
 
   private val cache = mutable.Map.empty[String, Int]
 
