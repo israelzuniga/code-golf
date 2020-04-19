@@ -1,9 +1,9 @@
-@()(implicit assetsFinder: AssetsFinder)
+@(name: String)(implicit assetsFinder: AssetsFinder)
 
 @main("Hello") {
     <section id="top">
         <div class="wrapper">
-            <h1>Hello, World!</h1>
+            <h1>Hello, @name!</h1>
         </div>
     </section>
 }
